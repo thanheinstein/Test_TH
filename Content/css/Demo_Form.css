@@ -1,0 +1,218 @@
+@import "http://fonts.googleapis.com/css?family=Oswald:400,300";
+
+.container {
+    background: none repeat scroll 0 0 #FAFAFA;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+    margin: 50px auto auto;
+    padding: 10px;
+    text-align: left;
+    width: 450px;
+    height: 650px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 10);
+    -moz-box-shadow:0px 0px 40px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 10);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    --border-radius: 20px;
+    border-radius: 20px;
+}
+
+.main-title {
+    border-bottom: 1px dotted #AAAAAA;
+    font-family: Oswald,sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-row {
+    float: left;
+    width: 100%;
+}
+
+.label-wrapper {
+    float: left;
+    width: 30%;
+}
+
+.element-wrapper {
+    float: left;
+    width: 70%;
+}
+
+.form-text {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-number {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-email {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-password {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-file {
+    background-color: #4D90FE;
+    background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+    border: 1px solid #3079ED;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    width: 96%;
+}
+
+.form-change {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-textarea {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 80px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-date {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 2%;
+    width: 96%;
+}
+
+.form-submit {
+    border: 1px solid #298CBA;
+	font-weight: bold;
+	color: white;
+	background: #21759B;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+	padding: 3px 10px;
+	cursor: pointer;
+	/* add submit button a rounded corner */
+	-o-border-radius: 10em;  /*for opera*/
+	-khtml-border-radius: 10em; 
+	-webkit-border-radius: 10em; 
+	border-radius: 10em;
+	/* add background gradient effet */
+	/*for Chrome and Safari*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#298CBA), to(#217096));
+	/*for Mozilla*/
+	background: -moz-linear-gradient(top,  #298CBA,  #217096);
+	/*for IE*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#298CBA', endColorstr='#217096');
+}
+
+.form-submit:hover {
+    border: 1px solid #217096;
+    background: #217096;
+}
+
+.message {
+    line-height: 25px;
+    text-align: center;
+}
+
+.success {
+    background: none repeat scroll 0 0 #E8FFE9;
+    border: 1px solid #AFF0B1;
+    color: #52D156;
+}
+
+.failed {
+    background: none repeat scroll 0 0 #FFEFE8;
+    border: 1px solid #FCC2B1;
+    color: #F0734D;
+}

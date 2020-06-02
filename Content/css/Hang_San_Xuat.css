@@ -1,0 +1,90 @@
+/*Apple*/
+.png-apple {
+    width: 43px;
+    height: 43px;
+    margin: 0 0 0 5px;
+    -webkit-filter: blur(0px);
+	filter: blur(0px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.png-apple:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+/*Samsung*/
+.png-samsung {
+    width: 110px;
+    height: 20px;
+    margin: 0 0 10px 15px;
+    -webkit-filter: blur(0px);
+	filter: blur(0px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.png-samsung:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+/*OPPO*/
+.png-oppo {
+    width: 100px;
+    height: 20px;
+    margin: 0 0 8px 15px;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.png-oppo:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+/*Sony*/
+.png-sony {
+    width: 100px;
+    height: 20px;
+    margin: 0 0 10px 15px;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.png-sony:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+/*Nokia*/
+.png-nokia {
+    width: 100px;
+    height: 20px;
+    margin: 0 0 10px 15px;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.png-nokia:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+/*HTC*/
+.png-htc {
+    width: 100px;
+    height: 20px;
+    margin: 0 0 11px 15px;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.png-htc:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+}
